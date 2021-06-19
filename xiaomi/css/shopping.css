@@ -1,0 +1,384 @@
+@charset "utf-8";
+hr{
+	color: #E0E0E0;
+}
+/* ***********水平线导航********* */
+/* #shopping-head h2{
+	width: 1226px;
+	margin-right: auto;
+	margin-left: auto;
+} */
+#shopping-head{
+	color: #FFFFFF;
+	height: 60px;
+	border-top: 1px solid #e0e0e0;
+	min-width: 1226px;
+}
+#shopping-head h2{
+	    margin: 0;
+	    font-size: 18px;
+	    font-weight: 400;
+	    line-height: 60px;
+	    color: #424242;
+	    float: left;
+}
+.body-cont .left{
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+	margin-top: 21px;
+}
+.left span,.right span{
+	margin: 0 .5em;
+	color: #424242;
+}
+.right{
+	float: right;
+	margin-top: 17px;
+}
+.right a,.left a{
+	color: #616161;
+	font-size: 14px
+}
+
+/* *************登陆提醒*********** */
+.remind{
+	width: 100%;
+	min-width: 1226px;
+	height: 48px;
+	line-height: 48px;
+	background: #f7f7f7;
+}
+.login{
+	width: 1226px;
+	height: 48px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+}
+.login span:nth-of-type(1){
+	margin-left: 20px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.login span:nth-of-type(1) a{
+	color: #FF6700;
+}
+.login span:nth-of-type(2){
+	color: #ccc;
+}
+
+
+/* ***********内容详情***************** */
+#container{
+	width: 100%;
+	height: 1510px;
+	min-width: 1226px;
+	/* background-color: #0077AA; */
+}
+/* ***商品详情*** */
+.shopping{
+	width: 100%;
+	height: 1028px;
+	    /* display: -ms-flexbox; */
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-top: 32px;
+	padding-bottom: 12px;
+	/* background-color: #0086B3; */
+	position: relative;
+}
+.shopping .shopping-left{
+	width: 560px;
+	height: 556px;
+	/* float: left; */
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.shopping .shopping-left img{
+	width: 100%;
+	height: 100%;
+}
+/* ***右边选择*** */
+.shopping .shopping-right{
+	/* flex: 1; */
+	width: 600px;
+	height: 1028px;
+	position: absolute;
+	right: 0;
+	margin-left: 20px;
+}
+.shopping-right h2{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: 400;
+	color: #212121;
+}
+.shopping-right .xqing{
+	color: #b0b0b0;
+	margin: 0;
+	padding: 0;
+	padding-top: 8px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.shopping-right p:nth-of-type(2){
+	color: #ff6700;
+	margin-bottom: 0;
+	font-size: 14px;
+	margin-top: 14px;
+}
+.line{
+	margin-top: 12px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.shopping-right .price{
+	width: 600px;
+	height: 52px;
+	margin-top: 15px;
+	background-color: #FF460B;
+}
+.price-left{
+	width: 400px;
+	height: 100%;
+	display: flex;
+	align-items: left;
+	flex-direction:column;
+	justify-content:space-around;
+}
+.price-left span,.price-right span{
+	padding-left: 20px;
+	display: inline-block;
+	line-height: 22px;
+	height: 22px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+/* 订金右盒子 */
+.price-right{
+	width: 160px;
+	display: inline-block;
+	height: 100%;
+	float: right;
+	font-size: 12px;
+}
+/* diqu */
+.area{
+	height: 42px;
+	padding: 30px 50px;
+	position: relative;
+	margin: 20px 0;
+	background-color: #fafafa;
+	border: 1px solid #e0e0e0;
+	font-size: 14px;
+	color: #333;
+}
+.area a{
+	font-size: 14px;
+	color: #FF6700;
+}
+/* 版本 */
+.banben{
+	width: 600px;
+	height: 135px;
+	padding-bottom: 30px;
+}
+.banben .banben-up{
+	margin-bottom: 30px;
+	position: relative;
+}
+.banben-up p{
+	font-size: 18px;
+	color: #333;
+}
+.banben-up ul{
+	width: 600px;
+}
+.banben-up ul li{
+	margin-right: 12px;
+	margin-top: 10px;
+	line-height: 42px;
+	height: 42px;
+	position: relative;
+	border: 1px solid #e0e0e0;
+	list-style: none;
+	cursor: pointer;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	float: left;
+	width: 292px;
+	font-size: 16px;
+	text-align: center;
+}
+.banben-up ul li:nth-of-type(2){
+	float: right;
+	margin-right: 0;
+}
+.banben-up ul li a{
+	color: #333;
+}
+.banben-up ul li:hover{
+	border: 1px solid #FF6700;
+}
+
+/* 订金 */
+.sj-price{
+	width: 540px;
+	height: 86px;
+	padding: 30px;
+	margin: 20px 0;
+	background-color: #F9F9FA;
+}
+.sj-price p:nth-of-type(1){
+	color: #333;
+	font-size: 14px
+}
+.sj-price p:nth-of-type(2){
+	color: #FF6700;
+	font-size: 26px;
+	font-weight: 600;
+}
+/* 购买 */
+.buy{
+	margin: 10px 0 20px 0;
+	width: 600px;
+	height: 54px;
+}
+.buy-btn{
+	width: 300px;
+	height: 54px;
+	text-align: center;
+	line-height: 54px;
+	margin-right: 10px;
+	float: left;
+	background-color: #FF6700;
+}
+.like-btn{
+	width: 142px;
+	height: 54px;
+	text-align: center;
+	line-height: 54px;
+	float: left;
+	background-color: #B0B0B0;
+}
+.buy a{
+	color: #FFFFFF;
+}
+
+/* 价格说明 */
+.shuoming{
+	width: 100%;
+	height: 220px;
+	background-color: #F5F5F5;
+}
+
+
+
+.wrap{
+	width: 100%;
+	height: 417px;
+}
+.content{
+	width: 1200px;
+	margin: 0 auto;
+}
+h1, .hi{
+	font-size: 36px;
+	margin-top: 20px;
+    margin-bottom: 10px
+}
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	height: 417px;
+}
+.row{
+	margin-right: -15px;
+    margin-left: -15px;
+}
+.col-xs-12{
+	width: 100%;
+	/* float: left; */
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.thumbnail{
+
+	display: inline-block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+	transition: border .2s ease-in-out;
+	width: 252px;
+	height: 298px;
+	float: left;
+	margin: 10px;
+}
+.thumbnail .caption{
+	padding: 9px;
+    color: #333;
+	line-height: 1.42857143
+}
+h3, .h3{
+	font-size: 24px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+	font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+	
+}
+.btn-default{
+	color: #333;
+    background-color: #fff;
+	border: 1px solid #ccc;
+	display: inline-block;
+    padding: 6px 12px;
+}
+
+
+
+
+
+
+.scenics img{
+	width: 252px;
+    height: 150px;
+	margin-right: auto;
+    margin-left: auto;
+	display: block;
+    max-width: 100%;
+}
+.scenics p.introduce{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+	font-size: 10px;
+	
+}
+.footer{
+    position:static;
+    bottom:0;
+    left:0;
+    background-color: rgb(20,50,87);
+    padding-bottom:10px;
+}
+div.descipt{
+    padding-left:10px;
+}
+div.descipt p.info{
+    text-indent: 2em;
+}

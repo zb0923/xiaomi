@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/shopping.css" /> -->
+		<link rel="icon" href="images/logo.ico" type="image/x-icon" />
+		<!-- <link rel="stylesheet" href="swiper-5.4.5/package/css/swiper.min.css"> -->
+		<link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+		<!-- <script src="swiper-5.4.5/package/js/swiper.min.js"></script> -->
+		<script src="./swiper/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="font/iconfont.css">
+		<link rel="stylesheet" href="./css/shopping.css">
+		<link rel="stylesheet" href="./css/moban.css">
+
+
+
+
+	
+		
+
+	</head>
+	<body>
+		<!-- 商城大盒子 -->
+		<div id="app">
+			<!-- 头部导航区 -->
+			<div id="header">
+				<!-- 顶部 -->
+				<div class="header-top">
+					<div class="header-cont">
+						<!-- 左边ul -->
+						<ul class="ul1">
+							<li><a href="">小米商城</a></li>
+							<span class="spn">|</span>
+							<li><a href="">MIUI</a></li>
+							<span class="spn">|</span>
+							<li><a href="">loT</a></li>
+							<span class="spn">|</span>
+							<li><a href="">云服务</a></li>
+							<span class="spn">|</span>
+							<li><a href="">天星数科</a></li>
+							<span class="spn">|</span>
+							<li><a href="">有品</a></li>
+							<span class="spn">|</span>
+							<li><a href="">小爱开放台</a></li>
+							<span class="spn">|</span>
+							<li><a href="">企业团购</a></li>
+							<span class="spn">|</span>
+							<li><a href="">资质证照</a></li>
+							<span class="spn">|</span>
+							<li><a href="">协议规则</a></li>
+							<span class="spn">|</span>
+							<li><a href="">下载app</a></li>
+							<span class="spn">|</span>
+							<li><a href="">智能生活</a></li>
+							<span class="spn">|</span>
+							<li><a href="">Select Location</a></li>
+						</ul>
+
+						<!-- 右边 -->
+						<div class="rightBox">
+
+ 
+							<ul class="nav navbar-nav navbar-right login">
+								<!-- <li><a>欢迎尊贵的<span>leon</span>VIP来到旅游网站！</a></li>
+									<span class="spn">|</span>
+								<li><a href="javascript:;" class="logout">退出</a></li> -->
+								<li><a href="login.html">登陆</a></li>
+								<span class="spn">|</span>
+								<li><a href="register.html">注册</a></li>
+							
+
+
+							<!-- <li><a href="login.html">登陆</a></li>
+							<span class="spn">|</span>
+							<li><a href="register.html">注册</a></li> -->
+							<span class="spn">|</span>
+							<li><a href="">消息通知</a></li>
+							<div class="rightBox2">
+								<a href="cart.html">购物车</a>
+								<span class="cart-mini">(0)</span>
+							</div>
+						</ul>
+
+							<!-- 购物车二级导航 -->
+							<!-- <div class="gwcBox">
+										
+									</div> -->
+						</div><!-- 右边盒子结尾 -->
+					</div><!-- 版心 -->
+				</div><!-- 上ul -->
+
+				<!-- 下部 -->
+				<div class="header-bottom">
+					<div class="header-cont">
+						<h1><a href=""><img src="./images/logo-2.png" alt=""></a></h1>
+						<!-- 右边盒子 -->
+						<div class="BomRight">
+							<ul class="ul2">
+								<li><a href="">小米手机</a></li>
+								<li><a href="">Redmi红米</a></li>
+								<li><a href="">电视</a></li>
+								<li><a href="">笔记本</a></li>
+								<li><a href="">家电</a></li>
+								<li><a href="">路由器</a></li>
+								<li><a href="">智能硬件</a></li>
+								<li><a href="">服务</a></li>
+								<li><a href="">社区</a></li>
+							</ul>
+							<!-- 搜索 -->
+							<div class="header-search">
+								<form action="" method="get" class="search-form">
+									<input type="text" name="" id="search-text" placeholder="个户" />
+									<!-- 热点下拉 -->
+									<!-- <div class="hot-list"></div> -->
+
+									<a href="" class="Search">
+										<!-- <div ></div> -->
+									</a>
+								</form>
+							</div><!-- 搜索 -->
+						</div><!-- 右边总盒子 -->
+					</div><!-- 盒子版心 -->
+				</div><!-- 下部导航大盒子 -->
+			</div>
+			<!-- 水平线 -->
+			
+			<!-- 水平线下导航 -->
+			<div id="shopping-head">
+				<div class="body-cont">
+					<h2>Redmi Note 10 Pro</h2>
+					<!-- 左边 -->
+					<div class="left">
+						<span>|</span>
+						<a href="#">Redmi Note 10 5G</a>
+					</div><!-- 左 -->
+					<!-- 右边 -->
+					<div class="right">
+						<a href="#">概述页</a>
+						<span>|</span>
+						<a href="#">参数页</a>
+						<span>|</span>
+						<a href="#">F码通道</a>
+						<span>|</span>
+						<a href="#">咨询客服</a>
+						<span>|</span>
+						<a href="#">用户评价</a>
+						<span>|</span>
+					</div><!-- 右盒子 -->
+				</div><!-- 版心 -->
+			</div><!-- 水平线下导航 -->
+			
+
+			<!-- 登录提醒 -->
+			<!-- <div class="remind">
+				<div class="login">
+					<p>
+						为方便您购买，请提前登录
+						<span>
+							<a href="login.html">立即登录</a>
+						</span>
+						<span>X</span>
+					</p>
+				</div>
+			</div> -->
+			<!-- 登录提醒 -->
+			
+			
+	
+			<!-- <div id="container">
+				<div class="body-cont">
+					<div class="shopping">
+						<div class="shopping-left">
+							<img src="./images/shopping-sj.jpg" alt="">
+						
+						<div class="shopping-right">
+							<h2>Redmi Note 10 Pro</h2>
+							<p class="xqing">
+								<font color="#ff4a00">「订金预售中！6月1日0点付尾款，付尾款前2万名赠小米定制T恤；评论晒单前5000名赠价值29元小背包」
+								</font>
+								天玑1100年度旗舰芯 / VC液冷散热 / 120Hz旗舰变速金刚屏 / 67W 闪充 5000mAh 大电池 /JBL 立体声双扬声器 / UFS 3.1 /  6400万AI三摄 / 多功能NFC 3.0 / 旗舰级设计 艺术感工艺
+							</p>
+							<p>小米自营</p>
+							<div class="line"></div>
+							<div class="price"> 
+								<div class="price-left">
+									<span>订金 ￥100</span>
+									<span>预售价 ￥1499</span>
+								</div>
+									<span>距结束</span>
+								</div>
+								<div class="area">
+									北京 北京市 海淀区 清河街道  <a href="#">修改</a><br />
+									<a href="#">预售商品</a>
+								</div>
+								<div class="banben">
+									<div class="banben-up">
+										<p>选择版本</p>
+										<ul>
+											<li><a href="">6GB+128GB</a></li>
+											<li><a href="">8GB+128GB</a></li>
+											<li><a href="">8GB+256GB</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="banben">
+									<div class="banben-up">
+										<p>选择颜色</p>
+										<ul>
+											<li><a href="">月魂</a></li>
+											<li><a href="">青纱</a></li>
+											<li><a href="">幻青</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="sj-price">
+									<p>Redmi Note 10 Pro 6GB+128GB 月魄</p>
+									<p>订金：100元</p>
+								</div>
+								<div class="buy">
+									<div class="buy-btn"><a href="cart.html">登陆后购买</a></div>
+									<div class="like-btn"><a href="">❤</a>喜欢</div>
+									<img src="./images/fuwu.png" >
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					<div class="sell">
+						<div class="body-cont">
+							<img src="./images/liucheng.png" alt="">
+						</div>
+					</div>
+				</div>	
+					
+					<div class="shuoming">
+						
+					</div>
+				
+			</div> -->
+
+
+
+
+			<div class="wrap" id="scenics">
+				<div class="content">
+					<h1>旅游网站 <small>所有景点</small></h1>
+					<div class="container fluid">
+						<div class="row scenics">
+							
+							<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+								<div class="thumbnail">
+									<img src="http://5b0988e595225.cdn.sohucs.com/images/20171222/014e9fc392984995bb10bf8b40385bb0.jpeg" alt="...">
+									<div class="caption">
+										<h3>颐和园</h3>
+										<p>阿斯顿发斯蒂芬阿斯蒂芬</p>
+										<p>
+											<a href="#" class="btn btn-default" role="button">查看详情</a>
+										</p>
+									</div>
+								</div>
+							</div>
+			
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page"></div>
+
+
+
+
+
+
+
+			<!-- footer底部区域 -->
+			<div id="footer">
+				<!-- footer上部 -->
+				<div class="footer-top">
+					<div class="footer-cont">
+						<!-- 售后 -->
+						<div class="shouhou">
+							<ul class="ul7">
+								<li>
+									<a href="">
+										<i class="iconfont icon-banshou"></i>
+										预约维修服务
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="iconfont icon-footer-7"></i>
+										7天无理由退货
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="iconfont icon-15tianwuliyoutuihuo"></i>
+										15天免费换货
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="iconfont icon-liwu"></i>
+										满69包邮
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="iconfont icon-Frame1"></i>
+										520余家售后网点
+									</a>
+								</li>
+							</ul>
+						</div><!-- 售后 -->
+
+
+						<!-- 关于 -->
+						<div class="guanyu">
+							<!-- 1 -->
+							<dl>
+								<dt>服务支持</dt>
+								<dd>
+									<a href="">售后政策</a>
+								</dd>
+								<dd>
+									<a href="">自助服务</a>
+								</dd>
+								<dd>
+									<a href="">相关下载</a>
+								</dd>
+							</dl>
+							<!-- 2 -->
+							<dl>
+								<dt>帮助中心</dt>
+								<dd>
+									<a href="">账户管理</a>
+								</dd>
+								<dd>
+									<a href="">购物指南</a>
+								</dd>
+								<dd>
+									<a href="">订单操作</a>
+								</dd>
+							</dl>
+							<!-- 3 -->
+							<dl>
+								<dt>线下门店</dt>
+								<dd>
+									<a href="">小米之家</a>
+								</dd>
+								<dd>
+									<a href="">服务网点</a>
+								</dd>
+								<dd>
+									<a href="">授权企业店</a>
+								</dd>
+							</dl>
+							<!-- 4 -->
+							<dl>
+								<dt>关于小米</dt>
+								<dd>
+									<a href="">了解小米</a>
+								</dd>
+								<dd>
+									<a href="">加入小米</a>
+								</dd>
+								<dd>
+									<a href="">投资者关系</a>
+								</dd>
+								<dd>
+									<a href="">企业社会责任</a>
+								</dd>
+								<dd>
+									<a href="">廉洁举报</a>
+								</dd>
+							</dl>
+							<!-- 5 -->
+							<dl>
+								<dt>关注我们</dt>
+								<dd>
+									<a href="">新浪微博</a>
+								</dd>
+								<dd>
+									<a href="">官方微信</a>
+								</dd>
+								<dd>
+									<a href="">联系我们</a>
+								</dd>
+								<dd>
+									<a href="">公益基金会</a>
+								</dd>
+							</dl>
+							<!-- 6 -->
+							<dl>
+								<dt>特色服务</dt>
+								<dd>
+									<a href="">F码通道</a>
+								</dd>
+								<dd>
+									<a href="">礼物码</a>
+								</dd>
+								<dd>
+									<a href="">防伪查询</a>
+								</dd>
+							</dl>
+							<!-- 联系电话 -->
+							<div class="call">
+								<p class="phone">400-100-5678</p>
+								<p>8:00-18:00（仅收市话费）</p>
+								<a href="" class="rgkf"><i class="iconfont icon-xiaoxi"></i> 人工客服</a>
+								<div class="gzxm">关注小米：
+									<a href="" class="wb"><i class="iconfont icon-weibo"></i></a>
+									<a href="" class="wx"><i class="iconfont icon-weixin"></i><img
+											src="./images/wx-img.png" alt=""></a>
+
+								</div>
+							</div>
+						</div><!-- 关于 -->
+					</div><!-- 版心 -->
+				</div><!-- 上部分 -->
+
+
+				<!-- footer下部 -->
+				<div class="footer-bottom">
+					<div class="footer-cont">
+						<!-- logo图标 -->
+						<div class="logo2"></div>
+						<!-- 文字 -->
+						<div class="bottom-wz">
+							<!-- 第一行 -->
+							<p class="wz">
+								<a href="">小米商城</a>
+								<span>|</span>
+								<a href="">MIUI</a>
+								<span>|</span>
+								<a href="">米家</a>
+								<span>|</span>
+								<a href="">米聊</a>
+								<span>|</span>
+								<a href="">多看</a>
+								<span>|</span>
+								<a href="">游戏</a>
+								<span>|</span>
+								<a href="">政企服务</a>
+								<span>|</span>
+								<a href="">小米天猫店</a>
+								<span>|</span>
+								<a href="">小米集团隐私政策</a>
+								<span>|</span>
+								<a href="">小米公司儿童信息保护规则</a>
+								<span>|</span>
+								<a href="">小米商城隐私政策</a>
+								<span>|</span>
+								<a href="">小米商城用户协议</a>
+								<span>|</span>
+								<a href="">问题反馈</a>
+								<span>|</span>
+								<a href="">Select Location</a>
+							</p>
+							<!-- 第二行 -->
+							<p class="wz">
+								<a href="">北京互联网法院法律服务工作站</a>
+								<span>|</span>
+								<a href="">中国消费者协会</a>
+								<span>|</span>
+								<a href="">北京市消费者协会</a>
+							</p>
+							<!-- 第三 -->
+							<p>
+								©
+								<a href="">mi.com</a>
+								京ICP证110507号
+								<a href="">京ICP备10046444号</a>
+								<a href="">京公网安备11010802020134号</a>
+								<a href="">京网文[2020]0276-042号</a>
+								<br />
+								<a href="">（京）网械平台备字（2018）第00005号</a>
+								<a href="">互联网药品信息服务资格证 (京)-非经营性-2014-0090</a>
+								<a href="">营业执照</a>
+								<a href="">医疗器械质量公告</a>
+								<br />
+								<a href="">增值电信业务许可证</a>
+								网络食品经营备案 京食药网食备202010048
+								<a href="">食品经营许可证</a>
+								<br />
+								违法和不良信息举报电话：171-5104-4404
+								<a href="">知识产权侵权投诉</a>
+								本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+							</p>
+						</div><!-- 文字 -->
+						<!-- 底部图标 -->
+						<div class="tubiao">
+							<a href=""><img src="./images/truste.png" alt=""></a>
+							<a href=""><img src="./images/v-logo-2.png" alt=""></a>
+							<a href=""><img src="./images/icon3.png" alt=""></a>
+							<a href=""><img src="./images/cxjy.png" alt=""></a>
+							<a href=""><img src="./images/wzaq.png" alt=""></a>
+						</div>
+						<div class="dibu">让全球每个人都能享受科技带来的美好生活</div>
+					</div><!-- 版心 -->
+				</div><!-- 底部的下部盒子 -->
+			</div><!-- 底部大盒子 -->
+
+		</div><!-- 商城大盒子 -->
+
+
+		<!-- 侧边栏 -->
+		<div class="rightmenu">
+			<span>
+				<a href="">
+					<i class="iconfont icon-shouji"></i>
+					<p>手机APP</p>
+				</a>
+			</span>
+			<span>
+				<a href="">
+					<i class="iconfont icon-geren"></i>
+					<p>个人中心</p>
+				</a>
+			</span>
+			<span>
+				<a href="">
+					<i class="iconfont icon-banshou"></i>
+					<p>售后服务</p>
+				</a>
+			</span>
+			<span>
+				<a href="">
+					<i class="iconfont icon-rengongkefu
+		"></i>
+					<p>人工客服</p>
+				</a>
+			</span>
+			<span>
+				<a href="">
+					<i class="iconfont icon-gouwuche"></i>
+					<p>购物车</p>
+				</a>
+			</span>
+			<span>
+				<a href="">
+					<i class="iconfont icon-huidingbu
+		"></i>
+					<p>回到顶部</p>
+				</a>
+			</span>
+		</div><!-- 侧边栏 -->
+
+
+
+	</body>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/layer/layer.js"></script>
+	<script src="./js/ajax.js"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/checkLogin.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<script src="./js/page.js"></script>
+		<script src="./js/list.js"></script>
+
+
+
+	<script src="jQuery/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shopping.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

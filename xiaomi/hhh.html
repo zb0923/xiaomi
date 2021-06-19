@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/shopping.css" /> -->
+		<link rel="icon" href="images/logo.ico" type="image/x-icon" />
+		<!-- <link rel="stylesheet" href="swiper-5.4.5/package/css/swiper.min.css"> -->
+		<link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+		<!-- <script src="swiper-5.4.5/package/js/swiper.min.js"></script> -->
+		<script src="./swiper/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="font/iconfont.css">
+		<!-- <link rel="stylesheet" href="./css/shopping.css"> -->
+		<link rel="stylesheet" href="./css/moban.css">
+        <link rel="stylesheet" href="./css/hhh.css">
+
+        <meta name="referrer" content="never">
+
+
+        <link rel="stylesheet" href="./css/normalize.css">
+        <!-- 引入bootstrap -->
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <!-- 公共样式 -->
+        <link rel="stylesheet" href="./css/common.css">
+        <!-- 当前文件的css -->
+        <!-- <link rel="stylesheet" href="./css/detail.css"> -->
+        <!-- 引入js的库 -->
+        <script src="./js/jquery.min.js"></script>
+        <!-- 引入bootstrap.js，bootstrap的js需要依赖一个js库 -->
+        <script src="./js/bootstrap.js"></script>
+        <!-- 引入cookie的js -->
+        <script src="./js/cookie.js"></script>
+        <script src="./js/layer/layer.js"></script>
+        <script src="./js/ajax.js"></script>
+        <script src="js/checkLogin.js"></script>
+
+
+
+	
+		
+
+	</head>
+	<body>
+		<!-- 商城大盒子 -->
+		<div id="app">
+			<!-- 头部导航区 -->
+			<div id="header">
+				<!-- 顶部 -->
+				<div class="header-top">
+					<div class="header-cont">
+						<!-- 左边ul -->
+						<ul class="ul1">
+							<li><a href="">小米商城</a></li>
+							<span class="spn">|</span>
+							<li><a href="">MIUI</a></li>
+							<span class="spn">|</span>
+							<li><a href="">loT</a></li>
+							<span class="spn">|</span>
+							<li><a href="">云服务</a></li>
+							<span class="spn">|</span>
+							<li><a href="">天星数科</a></li>
+							<span class="spn">|</span>
+							<li><a href="">有品</a></li>
+							<span class="spn">|</span>
+							<li><a href="">小爱开放台</a></li>
+							<span class="spn">|</span>
+							<li><a href="">企业团购</a></li>
+							<span class="spn">|</span>
+							<li><a href="">资质证照</a></li>
+							<span class="spn">|</span>
+							<li><a href="">协议规则</a></li>
+							<span class="spn">|</span>
+							<li><a href="">下载app</a></li>
+							<span class="spn">|</span>
+							<li><a href="">智能生活</a></li>
+							<span class="spn">|</span>
+							<li><a href="">Select Location</a></li>
+						</ul>
+
+						<!-- 右边 -->
+						<div class="rightBox">
+
+ 
+							<ul class="nav navbar-nav navbar-right login">
+								<!-- <li><a>欢迎尊贵的<span>leon</span>VIP来到旅游网站！</a></li>
+									<span class="spn">|</span>
+								<li><a href="javascript:;" class="logout">退出</a></li> -->
+								<li><a href="login.html">登陆</a></li>
+								<span class="spn">|</span>
+								<li><a href="register.html">注册</a></li>
+							
+
+
+							<!-- <li><a href="login.html">登陆</a></li>
+							<span class="spn">|</span>
+							<li><a href="register.html">注册</a></li> -->
+							<span class="spn">|</span>
+							<li><a href="">消息通知</a></li>
+							<div class="rightBox2">
+								<a href="cart.html">购物车</a>
+								<span class="cart-mini">(0)</span>
+							</div>
+						</ul>
+
+							<!-- 购物车二级导航 -->
+							<!-- <div class="gwcBox">
+										
+									</div> -->
+						</div><!-- 右边盒子结尾 -->
+					</div><!-- 版心 -->
+				</div><!-- 上ul -->
+
+				<!-- 下部 -->
+				<div class="header-bottom">
+					<div class="header-cont">
+						<h1><a href=""><img src="./images/logo-2.png" alt=""></a></h1>
+						<!-- 右边盒子 -->
+						<div class="BomRight">
+							<ul class="ul2">
+								<li><a href="">小米手机</a></li>
+								<li><a href="">Redmi红米</a></li>
+								<li><a href="">电视</a></li>
+								<li><a href="">笔记本</a></li>
+								<li><a href="">家电</a></li>
+								<li><a href="">路由器</a></li>
+								<li><a href="">智能硬件</a></li>
+								<li><a href="">服务</a></li>
+								<li><a href="">社区</a></li>
+							</ul>
+							<!-- 搜索 -->
+							<div class="header-search">
+								<form action="" method="get" class="search-form">
+									<input type="text" name="" id="search-text" placeholder="个户" />
+									<!-- 热点下拉 -->
+									<!-- <div class="hot-list"></div> -->
+
+									<a href="" class="Search">
+										<!-- <div ></div> -->
+									</a>
+								</form>
+							</div><!-- 搜索 -->
+						</div><!-- 右边总盒子 -->
+					</div><!-- 盒子版心 -->
+				</div><!-- 下部导航大盒子 -->
+			</div>
+			<!-- 水平线 -->
+			
+			<!-- 水平线下导航 -->
+			<div id="shopping-head">
+				<div class="body-cont">
+					<h2>Redmi Note 10 Pro</h2>
+					<!-- 左边 -->
+					<!-- <div class="left">
+						<span>|</span>
+						<a href="#">Redmi Note 10 5G</a>
+					</div> -->
+                    <!-- 左 -->
+					<!-- 右边 -->
+					<div class="right">
+						<a href="#">概述页</a>
+						<span>|</span>
+						<a href="#">参数页</a>
+						<span>|</span>
+						<a href="#">F码通道</a>
+						<span>|</span>
+						<a href="#">咨询客服</a>
+						<span>|</span>
+						<a href="#">用户评价</a>
+						<span>|</span>
+					</div><!-- 右盒子 -->
+				</div><!-- 版心 -->
+			</div><!-- 水平线下导航 -->
+
+
+
+
+
+
+
+            <div class="wrap detail">
+                <div class="content">
+                    <div class="up clearfix">
+                        <div class="enlarge fl">
+                            <div class="middle">
+                                <img src="https://bkimg.cdn.bcebos.com/pic/dbb44aed2e738bd40840d13ca18b87d6277ff95e?x-bce-process=image/resize,m_lfit,w_268,limit_1" alt="">
+                                <div class="shade"></div>
+                                <div class="big">
+                                    <img src="https://bkimg.cdn.bcebos.com/pic/dbb44aed2e738bd40840d13ca18b87d6277ff95e?x-bce-process=image/resize,m_lfit,w_268,limit_1" alt="">
+                                </div>
+                            </div>
+                            <div class="small clearfix">
+                                <a href="" class="leftBtn fl">&lt;</a>
+                                <div class="wraper fl">
+                                    <ul>
+                                        <!-- <li class="active"><img src="https://bkimg.cdn.bcebos.com/pic/32fa828ba61ea8d32d119dfb910a304e251f581a?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5" alt=""></li>
+                                        <li><img src="https://img.alicdn.com/imgextra/i4/26444719/O1CN01rm8rNy1kjLfh0RQMU_!!26444719.jpg" alt=""></li>
+                                        <li><img src="https://img.alicdn.com/imgextra/i4/26444719/O1CN01JiaEn31kjLfhzzQ5q_!!26444719.jpg" alt=""></li> -->
+                                    </ul>
+                                </div>
+                                
+                                <a href="" class="rightBtn fr">&gt;</a>
+                            </div>
+                        </div>
+                        <div class="description fl">
+                            <h4>标题</h4>
+                            <p class="free">免息</p>
+                            <div class="price">
+                                <p class="souceprice">价格：￥<span>000</span>元</p>
+                                <p class="coupon">优惠券：<span>满减</span></p>
+                            </div>
+                            <div class="delivery">
+                                配送：
+                                <select name="provinces"></select>
+                                <select name="citys"></select>
+                                <select name="areas"></select>
+                                <p>其他信息</p>
+                            </div>
+                            <div class="addCart clearfix">
+                                <div class="number fl">
+                                    <input type="text" name="num" value=1>
+                                    <button class="add">+</button>
+                                    <button class="reduce">-</button>
+                                </div>
+                                <button class="fl addBtn">加入购物车</button>
+                                <a href="cart.html" class="fl btn toCart">进入购物车</a>
+                            </div>
+                            <div class="share">
+                                关注
+                                分享
+                            </div>
+                        </div>
+                        <!-- <div class="guess fr">
+                            <h3>猜你喜欢</h3>
+                            <ul>
+                                <li>
+                                    <img width="180" src="https://img10.360buyimg.com/n1/s150x150_jfs/t1/130598/20/15852/147760/5fae5664E6d66a09c/ee060d4630968d60.jpg" alt="">
+                                    <p>描述</p>
+                                    <span>200</span>
+                                </li>
+                                <li>
+                                    <img width="180" src="https://img10.360buyimg.com/n1/s150x150_jfs/t1/130598/20/15852/147760/5fae5664E6d66a09c/ee060d4630968d60.jpg" alt="">
+                                    <p>描述</p>
+                                    <span>200</span>
+                                </li>
+                            </ul>
+                            <a href="" class="prev">上</a>
+                            <a href="" class="next">下</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </body>
+
+
+        
+    
+        <script src="./js/enlarge.js"></script>
+        <script src="./js/hhh.js"></script>
+    
+        <script src="jQuery/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/shopping.js" type="text/javascript" charset="utf-8"></script>
+
+

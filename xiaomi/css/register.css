@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.01); */
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  color: #000000;
+}
+/** **************左边盒子******** ***/
+.box-z {
+  width: 375px;
+  height: 100%;
+  background: url(../images/dl-banner.jpg);
+  background-size: 100% 142%;
+  background-position: 0 -134px;
+  display: inline-block;
+ overflow: hidden;
+  position: fixed;
+  /* float: left */
+}
+
+
+
+/* *************右侧表单***************** */
+.box-y {
+  width: calc(100% - 376px);
+  float: right;
+  background-color: #FFFFFF;
+  /* z-index: 9999999; */
+  /* height: 100%; */
+  /* overflow: hidden; */
+}
+/* .box-con{
+	width: 956px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #FFFFFF; 
+	float: right;
+	position: fixed;
+} */
+/* 头部 */
+.header {
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  position: relative;
+}
+
+.header .logo {
+  float: left;
+  height: 40px;
+  font-size: 26px;
+  font-weight: 500;
+  color: #333;
+  line-height: 40px;
+}
+
+.header .logo> img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  /* margin-right: 10px; */
+}
+
+.header .lbiao {
+  height: 40px;
+  line-height: 40px;
+  float: right;
+  padding-right: 30px;
+}
+
+.header .lbiao a ,.wzxz{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 40px;
+}
+
+.header .lbiao > span{
+	color: #838383;
+}
+.header .lbiao>a:hover {
+  color: #FF6700;
+}
+/* ************下拉选择语言********** */
+.header .ztxz{
+	width: 96px;
+	height: 80px;
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	display: none;
+	box-shadow: 0 5px 10px 3px #ebe8e8;
+}
+.header .ztxz a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	font-size: 12px;
+	color: #838383;
+	margin: 0;
+	line-height: 40px;
+	text-align: center;
+}
+.header .ztxz a:hover{
+	background-color: #FFF3E6;
+}
+.lbiao .wzxz:hover .ztxz{
+	display: block;
+}
+
+
+/************内容***************** */
+.box2{
+	width: 706px;
+	height: 705px;
+	padding-top:20px;
+	position: relative;
+	text-align: center
+}
+.box2-bdan {
+	  width: 360px;
+	  height: 520px;
+	  margin-left: 260px;
+	  padding: 40px 45px;
+	  margin-bottom: 80px;
+	  background-color: #fff;
+	  border-radius: 4px;
+	  overflow: hidden;
+	  position: relative;
+	  box-shadow: 0 5px 10px 3px #ebe8e8;
+}
+.boxImg{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+.box2-bdan .cont{
+	text-align: left;
+	width: 360px;
+	height: 520px;
+	
+}
+.wenzi {
+  width: 340px;
+  height: 40px;
+  border-bottom: none;
+  margin: 0 0 10px;
+}
+
+
+
+.wenzi .zi ,.wenzi .zc{
+  font-size: 22px;
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-right: 20px;
+  color: rgba(0,0,0,.65);
+  cursor: pointer;
+}
+
+.box2-bdan .cont .wenzi .zc {
+  color: #000000;
+  border-radius: 2px;
+  border-bottom: 4px #FF6700 solid;
+}
+.box2-bdan .cont .wenzi .zi {
+  color: rgba(0,0,0,.65);
+  border-bottom: none;
+}
+
+
+
+.box-form {
+  position: absolute;
+  width: 360px;
+  height: 355px;
+  /* left: 45px; */
+}
+
+
+form input {
+  /* padding: 20px; */
+  width: 90%;
+  margin: 10px 0;
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.05);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  
+}
+form input :nth-of-type(3){
+	position: relative;
+}
+
+/* *************登录按钮 ****************/
+.zhucebtn,.zhucebtn {
+  width: 100%;
+  line-height: 60px;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.4;
+  background-color: #ff5c00;
+  border-radius: 4px;
+  margin: 20px 0 10px;
+}
+
+/* .zhuce {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  float: left;
+} */
+
+/* .zhui {
+  width: 100%;
+  overflow: hidden;
+} */
+form > a{
+  color: #FF6700;
+  float: left;
+  font-size: 14px;
+  position: absolute;
+  top: 190px;
+  right: 10px;
+}
+.xieyi{
+	color: #999;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.qtfs {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: #999;
+}
+
+.qtfs img {
+  height: 3.5em;
+  margin-top: 20px;
+}
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+
+/* *****************版权************ */
+.banquan,.box-con .banquan a{
+	padding: 0 20px;
+	    text-align: center;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    left: 0;
+	    right: 0;
+	    color: #999;
+	    font-size: 12px;
+}

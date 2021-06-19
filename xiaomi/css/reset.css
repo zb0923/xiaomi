@@ -1,0 +1,39 @@
+/* 清除标签的默认样式 */
+/* 清除浏览器的默认间距 8px */
+*{
+    margin: 0;padding: 0;
+}
+/* 清除倾斜标签的默认样式 */
+i,em{
+    font-style: normal;
+}
+/* 清除加粗标签的默认样式 */
+b,strong{
+    font-weight: normal;
+}
+/* 清除a,u标签的下划线 */
+a,u{
+    text-decoration: none
+}
+/* 列表 */
+ul,li{
+    list-style: none
+}
+/* 万能清除法 */
+.clear-fix::after{
+    content: "可写可不写";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+/* 处理低版本兼容 */
+.clear-fix{
+    zoom:1
+}
+/* 点击清除默认边框 */
+input{
+    outline: none
+}
